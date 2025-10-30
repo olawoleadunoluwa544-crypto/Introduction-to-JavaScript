@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Introduction to JavaScript</h2>
+    <h3 id="head"></h3>
+    <p id="demo"></p>
+    <h6 id="sum"></h6>
+    <script>
+        //populate the elements in html
+        document.getElementById('head').innerHTML="This is a Javascript heading"
+        document.getElementById('demo').innerHTML="this is a paragraph added using Javascript"
+        //creating a variable
+        var x=10;
+        var y=20;
+        sum=x+y;
+        document.getElementById('sum').innerHTML='10 + 20 = '+sum;
+    </script>
+</body>
+</html>
